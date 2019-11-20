@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+     <meta charset="utf-8"/>
+     <meta name="author" content=""/>
+     <meta name="description" content=""/>
+     <meta name="keywords" content=""/>
+     <title>titulo da pagina</title>
+
+     <style media="screen">
+        #container{
+          width: 80%;
+          padding: 15px;
+          background: #ccc;
+          overflow: auto;
+        }
+        #container div{
+          width: 150px;
+          height: 50px;
+          border: 2px solid red;
+          margin: 5px;
+        }
+        #div1{
+          float: none;
+        }
+        #div2{
+          float: left;
+        }
+        #div3{
+          background: yellow;
+          float: right;
+        }
+        header{
+          background: green;
+          height: 50px;
+        }
+        nav{
+          background: orange;
+          width: 25%;
+          height: 110px;
+          float: left;
+        }
+        main{
+          background: yellow;
+          width: 70%;
+          height: 100px;
+          float: right;
+        }
+        footer{
+          background: blue;
+          height: 50px;
+          clear: both;
+        }
+     </style>
+
+  </head>
+  <body>
+    <h1>float</h1>
+    <div id="container">
+      <div id="div1">div1</div>
+      <div id="div2">div2</div>
+      <div id="div3">div3</div>
+    </div>
+    <hr>
+    <header>header</header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+  </body>
+</html>
