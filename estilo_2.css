@@ -23,10 +23,16 @@
   font-variant: small-caps;
   margin: 10px 10px 5px 10px;
 }
+.topo-menu a{
+  text-decoration: none;
+  color: white
+}
+.topo-menu a:hover{
+  color: #CDCDC1;
+}
 .topo-imagem{
   position: relative;
   bottom: 45px;
-  left: 60px;
 }
 section{
   margin-top: 20px;
@@ -41,19 +47,22 @@ section{
 .principal-artigo{
   text-align: center;
   font-family: sans-serif;
+  margin-bottom: 50px;
 }
 .principal-artigo h1{
   font-size: 25px;
 }
 .principal-artigo p{
   font-size: 15px;
+  margin-bottom: 50px;
+  color: #666;
 }
 .foto{
   width: 32%;
   float: left;
 }
-.p-foto1, .p-foto2{
-  margin-right: 2%;
+.p-foto2, .p-foto3{
+  margin-left: 2%;
 }
 .principal-imagens div{
   display: inline-block;
@@ -80,25 +89,35 @@ section{
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  overflow: auto;
+}
+.detalhe{
+  width: 200px;
+  height: 200px;
 }
 .s2 h1{
-  font-size: 25px;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 50px;
   font-family: sans-serif;
   font-variant: small-caps;
-  letter-spacing: 2px;
 }
 .s2 p{
   font-size: 15px;
+  font-family: sans-serif;
+  text-align: left;
+  padding-left: 10px;
+  float: left;
 }
 .s3{
   color: #008080;
   font-family: sans-serif;
   font-variant: small-caps;
   text-align: center;
-  margin: 15px;
+  margin: 25px;
 }
 .s3 b{
-  font-size: 20px;
+  font-size: 25px;
 }
 .s4{
   background-color: #8FBC8F;
