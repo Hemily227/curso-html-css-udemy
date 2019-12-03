@@ -1,0 +1,58 @@
+body{
+  background-color: #31471f;
+}
+.topo nav{
+  background: #2a502a;
+}
+.topo h1{
+  color: #bcc373;
+  text-align: left;
+  font-style: oblique;
+  font-size: 25px;
+}
+.topo li{
+  display: inline-block;
+  list-style: none;
+  letter-spacing: 2px;
+  font-variant: small-caps;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.topo a{
+  text-decoration: none;
+  color: #bcc373;
+}
+.topo{
+  background-image: url(../imagens/slide1.jpg);
+  background-size: cover;
+  width: 90%;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.artigo{
+  background: #bcc373;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 25px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.artigo h2{
+  background-color: #2a502a;
+  text-align: center;
+  color: white;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-size: 20px;
+}
+footer{
+  height: 50px;
+  text-align: center;
+  background: #0d1706;
+  color: #bcc373;
+  padding: 10px;
+  margin-top: 15px;
+}
