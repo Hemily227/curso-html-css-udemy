@@ -120,15 +120,10 @@ section{
 .s3 b{
   font-size: 25px;
 }
-.s4{
-  background-color: #8FBC8F;
-  color: white;
+.s4 iframe{
   width: 80%;
-  height: 200px;
   margin-left: 10%;
   margin-right: 10%;
-  padding: 50px;
-  box-sizing: border-box;
 }
 footer{
   background-color: #000;
