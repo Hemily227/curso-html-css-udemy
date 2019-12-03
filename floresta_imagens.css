@@ -3,6 +3,9 @@ body{
 }
 .topo nav{
   background: #2a502a;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .topo h1{
   color: #bcc373;
@@ -25,31 +28,14 @@ body{
 .topo a:hover{
   text-shadow: 3px 3px 2px black;
 }
-.topo{
-  background-image: url(../imagens/slide1.jpg);
-  background-size: cover;
-  width: 90%;
-  height: 500px;
-  margin-left: 5%;
-  margin-right: 5%;
+.principal{
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.artigo{
-  background: #bcc373;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 25px;
-  padding-top: 5px;
-  box-sizing: border-box;
-  margin-top: 50px;
-}
-.artigo h2{
-  background-color: #2a502a;
-  text-align: center;
-  color: white;
-  font-style: oblique;
-  font-variant: small-caps;
-  font-size: 20px;
+.principal img{
+  width: 370px;
+  height: 217px;
+  margin: 20px;
 }
 footer{
   height: 50px;
