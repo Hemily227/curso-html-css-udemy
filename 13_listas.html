@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+     <meta charset="utf-8"/>
+     <meta name="author" content=""/>
+     <meta name="description" content=""/>
+     <meta name="keywords" content=""/>
+     <title>título da página</title>
+
+     <style media="screen">
+       li ul{
+         height: 0;
+         overflow: hidden;
+         transition: height 0.5s;
+       }
+       li:hover{
+         background-color: #ccc;
+       }
+       li:hover ul{
+         height: 50px;
+       }
+     </style>
+
+  </head>
+  <body>
+    <h2>lista aninhada</h2>
+
+    <ul>
+      <li>item 1</li>
+      <li>item 2
+        <ul>
+          <li>item 2.1</li>
+          <li>item 2.2</li>
+        </ul>
+      </li>
+      <li>item 3</li>
+    </ul>
+
+    <hr>
+    <h2>lista de definição</h2>
+
+    <dl class="">
+      <dt>termo 1</dt>
+      <dd>definição do termo 1</dd>
+      <dt>termo 2</dt>
+      <dd>definição do termo 2</dd>
+    </dl>
+
+    <hr>
+    <dl class="">
+      <dt>termo 1</dt>
+      <dt>termo 2</dt>
+      <dd>definição de ambos os termos</dd>
+    </dl>
+
+    <hr>
+    <dl class="">
+      <dt>termo 1</dt>
+      <dd>definição 1  do termo </dd>
+      <dd>definição 2  do termo </dd>
+    </dl>
+
+  </body>
+</html>
