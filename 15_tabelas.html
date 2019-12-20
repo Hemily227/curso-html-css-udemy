@@ -10,17 +10,43 @@
 
      <style media="screen">
         body{
-          font-family: sans-serif;
+          font-family: fantasy;
+        }
+        table{
+          border-collapse: collapse;
+          width: 80%;
+          margin: auto;
+          background: beige;
+          border: brown 1px solid;
+        }
+        caption{
+          margin: 15px;
+          text-align: left;
+          font-size: 20px;
+          text-transform: uppercase;
+        }
+        th{
+          background: chocolate;
+          border: 2px solid brown;
+          padding: 15px;
+          font-size: 20px;
+          box-sizing: border-box;
+          font-style: oblique;
         }
         td{
           border: 1px solid black;
+          text-align: center;
+          padding: 10px;
+        }
+        .area{
+          font-size: 18px;
         }
      </style>
 
   </head>
   <body>
     <table>
-      <caption>tabela de preços de curso</caption>
+      <caption>Tabela de preços de curso</caption>
 
       <thead>
         <tr>
@@ -38,43 +64,38 @@
 
       <tbody>
         <tr>
-          <td>Design</td>
+          <td rowspan="3" class="area">Design</td>
           <td>InDesign</td>
           <td>R$ 1.000,00</td>
         </tr>
 
         <tr>
-          <td>Design</td>
           <td>Photoshop</td>
           <td>R$ 1.000,00</td>
         </tr>
 
         <tr>
-          <td>Design</td>
           <td>Illustrator</td>
           <td>R$ 1.000,00</td>
         </tr>
 
         <tr>
-          <td>Developement</td>
+          <td rowspan="4" class="area">Developement</td>
           <td>HTML</td>
           <td>R$ 1.000,00</td>
         </tr>
 
         <tr>
-          <td>Developement</td>
           <td>CSS</td>
           <td>R$ 1.000,00</td>
         </tr>
 
         <tr>
-          <td>Developement</td>
           <td>javascript</td>
           <td>R$ 1.000,00</td>
         </tr>
 
         <tr>
-          <td>Developement</td>
           <td>PHP</td>
           <td>R$ 1.000,00</td>
         </tr>
