@@ -10,12 +10,15 @@
   </head>
   <body>
     <h1>Exemplo de formulário</h1>
-    <form action="#" method="get" class="formlogin">
+    <form action="#" method="post" class="formlogin">
       <fieldset>
-
         <legend>Dados pessoais</legend>
+
         <label>Email</label>
-        <input type="email">
+        <input type="email" required maxlength="5">
+
+        <label>Telefone</label>
+        <input type="tel" name="" value="">
 
         <label>Número de filhos</label>
         <input type="number" min="0" max="1000">
@@ -36,11 +39,72 @@
         <label>prefiro não dizer
           <input type="radio" name="sexo" value="N">
         </label>
+        <input type="hidden" name="expira" value="2018-12-30">
 
         <br>
-        <input type="submit" value="mandar">
-
+        <label>Estado</label>
+        <select name="Estado">
+          <option value="0">Selecione</option>
+          <option value="SP">São Paulo</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="ES">Espírito Santo</option>
+        </select>
       </fieldset>
+
+      <fieldset>
+        <legend>Área de interesse</legend>
+
+        <label>HTML
+        <input type="checkbox" name="html" value="html">
+        </label>
+
+        <label>CSS
+        <input type="checkbox" name="css" value="css">
+        </label>
+
+        <label>JavaScript
+        <input type="checkbox" name="js" value="js">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Mensagem</legend>
+
+        <textarea name="msg" rows="3" cols="30" style="resize: none" maxlength="60"></textarea>
+
+        <br>
+        <textarea name="contrato" rows="6" cols="60" style="resize: none" readonly>Aqui entra o contrato que precisa ser aceito
+
+Mussum Ipsum, cacilds vidis litro abertis. Leite de capivaris, leite de mula manquis sem cabeça. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Si num tem leite então bota uma pinga aí cumpadi! Pra lá , depois divoltis porris, paradis.
+
+Quem num gosta di mé, boa gentis num é. Mé faiz elementum girarzis, nisi eros vermeio. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis! Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+
+Quem manda na minha terra sou euzis! Casamentiss faiz malandris se pirulitá. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Detraxit consequat et quo num tendi nada.
+        </textarea>
+
+        <br>
+        <label>Li e aceito</label>
+        <input type="checkbox" checked name="" value="">
+      </fieldset>
+
+      <fieldset style="padding: 15px">
+        <input type="range" name="" value="" min="0" max"10" step="5">
+        <input type="time" name="" value="">
+        <input type="color" name="" value="">
+
+        <select multiple size="4">
+          <option value="">selecione uma opição</option>
+          <option value="">opição 1</option>
+          <option value="">opição 2</option>
+          <option value="">opição 3</option>
+          <option value="">opição 4</option>
+        </select>
+      </fieldset>
+
+        <input type="submit" value="mandar">
+        <input type="button" value="botão">
+        <input type="reset" value="limpar">
+
     </form>
   </body>
 </html>
