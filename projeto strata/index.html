@@ -7,11 +7,13 @@
      <meta name="author" content="Daniel"/>
      <meta name="description" content="lista de documentos"/>
      <meta name="keywords" content="html5,tecnologia"/>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/estilo.css">
   </head>
   <body>
-    
+
     <header class="main-header">
-        <a href="./index.html" class="header-link">
+        <a href="./index.html" class="main-header-link">
             <img src="" alt="txt img">
         </a>
         <h1>
@@ -24,7 +26,7 @@
 
 
     <main class="main-content">
-        <section class="content-section">
+        <section class="main-content-section">
             <h2>Quando o header é aside e o aside é o header</h2>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem eius nulla blanditiis illo fuga labore fugit, sequi cum cupiditate, alias asperiores nihil reiciendis nam sapiente sed inventore est laborum deserunt?
@@ -32,7 +34,7 @@
             <a href="#" title="Veja mais" class="button-default">Veja mais</a>
         </section>
 
-        <section class="content-section">
+        <section class="main-content-section">
             <h3>Recent Works</h3>
             <article class="recent-work-card">
                 <a href="./images/fulls/01.jpg">
@@ -42,7 +44,7 @@
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
             </article>
 
-            <article class="recent-work-card">
+            <article class="recent-works-card">
                 <a href="./images/fulls/02.jpg">
                     <img src="./images/fulls/02.jpg" alt="description">
                 </a>
@@ -50,7 +52,7 @@
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
             </article>
             
-            <article class="recent-work-card">
+            <article class="recent-works-card">
                 <a href="./images/fulls/03.jpg">
                     <img src="./images/fulls/03.jpg" alt="description">
                 </a>
@@ -58,7 +60,7 @@
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
             </article>
             
-            <article class="recent-work-card">
+            <article class="recent-works-card">
                 <a href="./images/fulls/04.jpg">
                     <img src="./images/fulls/04.jpg" alt="description">
                 </a>
@@ -66,7 +68,7 @@
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
             </article>
 
-            <article class="recent-work-card">
+            <article class="recent-works-card">
                 <a href="./images/fulls/05.jpg">
                     <img src="./images/fulls/05.jpg" alt="description">
                 </a>
@@ -74,31 +76,32 @@
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
             </article>
 
-            <article class="recent-work-card">
+            <article class="recent-works-card">
                 <a href="./images/fulls/06.jpg">
                     <img src="./images/fulls/06.jpg" alt="description">
                 </a>
                 <p class="card-title">Risus ornare lacinia</p>
                 <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
             </article>
+            <a href="#" class="button-default" title="Veja Portifolio completo">Veja portifolio completo</a>
         </section>
 
-        <section class="content-section">
+        <section class="main-content-section">
             <h3>Get in Touch</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rem nihil tempora nisi. Laborum vel amet cumque repellat. Sapiente saepe qui in recusandae nam delectus quos voluptatibus fugit nostrum laudantium.
             </p>
             <form action="#" method="POST">
-                <label for="nome">Nome</label>
+                <label for="nome">Name</label>
                 <input type="text" name="nome" id="nome">
 
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email">
 
-                <label for="mensagem">enter your message</label>
+                <label for="mensagem">Enter your message</label>
                 <textarea name="message" id="mensagem" cols="30" rows="10"></textarea>
 
-                <input type="submit" value="enviar">
+                <input type="submit" value="submit">
             </form>
 
             <address>
@@ -117,9 +120,67 @@
             </address>
         </section>
 
-        <!-- <section>
+        <section class="main-content-section">
+            <h3>Elements</h3>
+            <h4>Text</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere odit corporis nam assumenda, est recusandae repudiandae enim, quis corrupti quam accusamus eos atque tempore perferendis. Laboriosam rerum deleniti molestiae neque!</p>
+            <p>
+                This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>. This is <sup>superscript</sup> text and this is <sub>subscript</sub> text. This is <u>underlined</u> and this is <code>code: for (;;) { ... }</code>. Finally, this is <a href="#"> a link</a>.
+            </p>
 
-        </section> -->
+            <blockquote cite="http://developer.mozilla.org">
+                <p>Esta é uma citação tirada da Mozilla Developer Center.</p>
+            </blockquote>
+
+            <p>
+                According to Mozilla's website,
+                <q
+                    cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0
+                    was released in 2004 and became a big success.
+                </q>
+            </p>
+            <h4>Proformatado</h4>
+            <pre>
+                <code>
+&lt;script&gt;
+alert('oi');
+&lt;/script&gt;
+                </code>
+            </pre>
+
+            <h4>listas</h4>
+            <h5>não ordenada</h5>
+            <ul>
+               <li>item 1</li>
+               <li>item 2</li>
+               <li>item 3</li>
+               <li>item 4</li>
+            </ul>
+
+            <h5>ordenada</h5>
+            <ol>
+               <li>item 1</li>
+               <li>item 2</li>
+               <li>item 3</li>
+               <li>item 4</li>
+            </ol>
+
+            <h5>alternate</h5>
+            <ul class="ul-alternate">
+               <li>item 1</li>
+               <li>item 2</li>
+               <li>item 3</li>
+               <li>item 4</li>
+            </ul>
+
+            <h5>icons</h5>
+            <ul>
+               <li><i class="fab fa-twitter"></i></li>
+               <li><i class="fab fa-facebook"></i></li>
+               <li><i class="fab fa-instagram"></i></li>
+               <li><i class="fab fa-pinterest"></i></li>
+            </ol>
+        </section>
 
         <!-- <section>
 
